@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link
+         rel="shortcut icon"
+         href="/favicon.ico/favicon-16x16.png"
+         type="image/x-icon"
+      />
+   </head>
+
+   <!-- Header-portfolio -->
+
+   <body class="body">
+      <header class="header">
+         <div class="container">
+            <nav class="main-nav">
+               <a
+                  class="logo"
+                  href="./index.html"
+                  lang="en"
+                  aria-label="Главный логотип"
+               >
+                  Web<span class="logo-accent">Studio</span>
+               </a>
+               <ul class="list">
+                  <li class="nav-item">
+                     <a class="nav-link" href="./index.html">Студия</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link current" href="./portfolio.html"
+                        >Портфолио</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Контакты</a>
+                  </li>
+               </ul>
+            </nav>
+
+            <!-- Link -->
+
+            <ul class="auth-nav list">
+               <li class="header-items">
+                  <a class="header-contact" href="mailto:info@devstudio.com">
+                     <svg class="header-icon" width="16" height="12">
+                        <use
+                           href="./images/Icons/sprite.svg#icon-envelope"
+                        ></use>
+                     </svg>
+                     info@devstudio.com
+                  </a>
+               </li>
+               <li class="header-items">
+                  <a class="header-contact" href="tel:+380961111111">
+                     <svg class="header-icon" width="10" height="16">
+                        <use
+                           href="./images/Icons/sprite.svg#icon-smartphone"
+                        ></use>
+                     </svg>
+                     +38 096 111 11 11
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </header>
+
+      <!-- Portflio page button -->
+
+      <main>
+         <section class="portfolio">
+            <div class="container">
+               <h1 class="portfolio-title" hidden>Our projects</h1>
+               <ul class="portfolio-list list">
+                  <li class="cards">
+                     <button class="pt-button primary">Все</button>
+                  </li>
+                  <li class="cards">
+                     <button class="pt-button">Веб-сайты</button>
+                  </li>
+                  <li class="cards">
+                     <button class="pt-button">Приложение</button>
+                  </li>
+                  <li class="cards">
+                     <button class="pt-button">Дизайн</button>
+                  </li>
+                  <li class="cards">
+                     <button class="pt-button">Маркетинг</button>
+                  </li>
+               </ul>
+               <ul class="portfolio-block list">
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_8.jpg"
+                              alt="Технокряк"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Ресурс предлагает комплексные предложения с
+                                 разным уровнем функционала и сервисов. Все это
+                                 позволит посетителю получить исчерпывающие
+                                 сведения о компании или частном лице.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">Технокряк</h2>
+                           <p class="portfolio-description">Веб-сайт</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_9.jpg"
+                              alt="Дизайн"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Постер — едва ли не первое, что может привлечь
+                                 внимание зрителя.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">
+                              Постер
+                              <span lang="en">New Orlean vs Golden Star</span>
+                           </h2>
+                           <p class="portfolio-description">Дизайн</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_10.jpg"
+                              alt="Приложение"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Основная идея «Коллекция
+                                 <span lang="en">seafood</span>» —
+                                 спецпредложения на морепродукты.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">
+                              Ресторан <span lang="en">Seafood</span>
+                           </h2>
+                           <p class="portfolio-description">Приложение</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_11.jpg"
+                              alt="Маркетинг"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 В современном издательском мире каждый автор
+                                 также должен быть промоутером. Однако вы не
+                                 одиноки;
+                                 <span lang="en">Project Prime Marketing</span>
+                                 предлагает широкий спектр маркетинговых услуг.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">
+                              Проект <span lang="en">Prime</span>
+                           </h2>
+                           <p class="portfolio-description">Маркетинг</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_12.jpg"
+                              alt="Приложение"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Дополнение позволяет пользователям
+                                 <span lang="en">Windows</span> и
+                                 <span lang="en">Mac</span> редактировать
+                                 контент с сервиса <span lang="en">Box</span>.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">
+                              Проект <span lang="en">Boxes</span>
+                           </h2>
+                           <p class="portfolio-description">Приложение</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_13.jpg"
+                              alt="Веб-сайт"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Общение на понятном всем языке может обеспечить
+                                 благополучие нашей планеты и всех ее жителей,
+                                 ведя нас к мирному сосуществованию.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects" lang="en">
+                              Inspiration has no Borders
+                           </h2>
+                           <p class="portfolio-description">Веб-сайт</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_14.jpg"
+                              alt="Дизайн"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Особенный дизайн упаковки – это отличный повод
+                                 повысить продажи, укрепить репутацию и
+                                 прорекламировать бренд.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">
+                              Издание <span lang="en">Limited Edition</span>
+                           </h2>
+                           <p class="portfolio-description">Дизайн</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_15.jpg"
+                              alt="Маркетинг"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 За весь период деятельности были реализованы
+                                 длительные масштабные проекты по качеству
+                                 обслуживания и оценке персонала крупных
+                                 компаний в разных сферах бизнеса.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects">
+                              Проект <span lang="en">LAB</span>
+                           </h2>
+                           <p class="portfolio-description">Маркетинг</p>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="portfolio-item">
+                     <a class="portfolio-link" href="#">
+                        <div class="card-thumb">
+                           <img
+                              src="images/Squoosh_16.jpg"
+                              alt="Приложение"
+                              width="370"
+                              height="294"
+                           />
+                           <div class="card-thumb-overlay">
+                              <p class="card-thumb-text">
+                                 Возможно, самый очевидный способ развития
+                                 вашего бизнеса — привлечь больше клиентов.
+                              </p>
+                           </div>
+                        </div>
+                        <div class="text">
+                           <h2 class="portfolio-projects" lang="en">
+                              Growing Business
+                           </h2>
+                           <p class="portfolio-description">Приложение</p>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+      </main>
+
+      <!-- Footer portfolio -->
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-address-container">
+               <a
+                  class="logo"
+                  href="index.html"
+                  lang="en"
+                  aria-label="Логотип футера"
+                  >Web<span class="logo-accent-white">Studio</span></a
+               >
+               <address class="address-footer">
+                  <ul class="list">
+                     <li class="footer-item">
+                        <a
+                           class="footer-address"
+                           href="https://goo.gl/maps/qPdaPdiiLv6fJNoK8"
+                           target="_blank"
+                           rel="noopener norefferer nofollow"
+                           >г. Киев, пр-т Леси Украинки, 26</a
+                        >
+                     </li>
+                     <li class="footer-item">
+                        <a
+                           class="footer-contacts"
+                           href="mailto:info@example.com"
+                           >info@example.com</a
+                        >
+                     </li>
+                     <li class="footer-item">
+                        <a class="footer-contacts" href="tel:+380991111111"
+                           >+38 096 111 11 11</a
+                        >
+                     </li>
+                  </ul>
+               </address>
+            </div>
+            <div class="footer-social-container">
+               <strong class="footer-social-caption">Присоединяйтесь</strong>
+               <ul class="footer-social-list">
+                  <li class="footer-social-item">
+                     <a
+                        class="footer-social-link"
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noopener norefferer"
+                        lang="en"
+                        aria-label="Instagram"
+                     >
+                        <svg class="footer-social-icon" width="20" height="20">
+                           <use
+                              href="./images/Icons/sprite.svg#icon-instagram-2"
+                           ></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a
+                        class="footer-social-link"
+                        href="https://www.twitter.com/"
+                        target="_blank"
+                        rel="noopener norefferer"
+                        lang="en"
+                        aria-label="Twitter"
+                     >
+                        <svg class="footer-social-icon" width="20" height="20">
+                           <use
+                              href="./images/Icons/sprite.svg#icon-twitter-2"
+                           ></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a
+                        class="footer-social-link"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noopener norefferer"
+                        lang="en"
+                        aria-label="Facebook"
+                     >
+                        <svg class="footer-social-icon" width="20" height="20">
+                           <use
+                              href="./images/Icons/sprite.svg#icon-facebook-2"
+                           ></use>
+                        </svg>
+                     </a>
+                  </li>
+                  <li class="footer-social-item">
+                     <a
+                        class="footer-social-link"
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener norefferer"
+                        lang="en"
+                        aria-label="Linkedin"
+                     >
+                        <svg class="footer-social-icon" width="20" height="20">
+                           <use
+                              href="./images/Icons/sprite.svg#icon-linkedin-2"
+                           ></use>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-subscription">
+               <strong class="footer-email">Подпишитесь на рассылку</strong>
+               <form class="footer-form">
+                  <label for="footer-email"></label>
+                  <input
+                     class="footer-email-button"
+                     type="email"
+                     name="telegramnews"
+                     id="footer-email"
+                     placeholder="E-mail"
+                  />
+                  <button class="footer-email-link" type="submit">
+                     Подписаться
+                     <svg class="footer-telegram-icon" width="24" height="24">
+                        <use
+                           href="./images/Icons/sprite.svg#icon-telegram"
+                        ></use>
+                     </svg>
+                  </button>
+               </form>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
