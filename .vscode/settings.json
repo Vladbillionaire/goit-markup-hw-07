@@ -5,7 +5,6 @@
         "endregion"
     ],
     "liveServer.settings.port": 5501,
-    // Наалштування для  Live Sass Compiler
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
